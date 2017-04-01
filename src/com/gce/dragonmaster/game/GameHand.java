@@ -8,6 +8,8 @@ import com.gce.dragonmaster.network.Player;
 
 
 public enum GameHand {
+	// Objective, Objective during powerplay, penalty per infraction, 
+	// 	reward for successful powerpay, , penalty for failed powerplay
 	DRAGONLORDS ("Dragonlords", "Do not take any Dragonlords", 
 			"Capture all Dragonlords", 1000, 10000, 8000),
 	FIRST_OR_LAST ("First or Last", "Do not take the first or last trick",
