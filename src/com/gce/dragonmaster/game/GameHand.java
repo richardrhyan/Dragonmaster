@@ -66,12 +66,31 @@ public enum GameHand {
 	}
 	
 	@Override
-	public	String		toString()					{ return name;					}
-	public	String		getObjective()				{ return objective;				}
-	public	String		getPowerplayObjective()		{ return powerplayObjective;	}
-	public	int			getPenalty()				{ return penalty;				}
-	public	int			getPowerplayReward()		{ return powerplayReward;		}
-	public	int			getPowerplayPenalty()		{ return powerplayPenalty;		}
-	public	static int	size()						{ return values().length;		}
+	public String toString() {
+		return name;
+	}
 	
+	public String getObjective() {
+		return objective;
+	}
+	
+	public String getPowerplayObjective() {
+		return powerplayObjective;
+	}
+	
+	public int getPenalty() {
+		return penalty;
+	}
+	
+	public int getPowerplayReward() {
+		return powerplayReward;
+	}
+	
+	public int getPowerplayPenalty() {
+		return powerplayPenalty;
+	}
+	
+	public static int size() {
+		return values().length;
+	}
 }
